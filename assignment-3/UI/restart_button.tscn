@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddtq0k1punbmu"]
+
+[ext_resource type="Script" uid="uid://chyv2gdvwimj5" path="res://UI/restart_button.gd" id="1_dnohg"]
+
+[node name="RestartButton" type="Button"]
+text = "Restart"
+script = ExtResource("1_dnohg")

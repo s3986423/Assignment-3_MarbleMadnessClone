@@ -1,0 +1,80 @@
+[gd_scene load_steps=11 format=3 uid="uid://bsycowm1wgspd"]
+
+[ext_resource type="PackedScene" uid="uid://do06x4rp6oaaf" path="res://UI/HUD.tscn" id="1_nw6x7"]
+[ext_resource type="PackedScene" uid="uid://bm8tp0r7o4trx" path="res://Characters/Player/player_character.tscn" id="1_r8xeu"]
+[ext_resource type="PackedScene" uid="uid://f1hkntrnkcmb" path="res://Characters/finish_area.tscn" id="3_r8n5v"]
+[ext_resource type="PackedScene" uid="uid://cvnspaqhp802u" path="res://Assets/Low Poly Weapon Pack - by Kickin It Studios/Low Poly Weapon Pack - by Kickin It Studios.fbx_Double_Axe.fbx" id="4_pemfd"]
+[ext_resource type="PackedScene" uid="uid://biup30ubgohl4" path="res://Components/death_plane.tscn" id="5_8yorr"]
+
+[sub_resource type="PrismMesh" id="PrismMesh_r8xeu"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r8xeu"]
+albedo_color = Color(0.564706, 0.733333, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_r8xeu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nw6x7"]
+albedo_color = Color(0.658824, 1, 1, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nw6x7"]
+
+[node name="TestLevel" type="Node3D"]
+
+[node name="Hud" parent="." instance=ExtResource("1_nw6x7")]
+
+[node name="Test-plane" type="CSGBox3D" parent="."]
+transform = Transform3D(0.998158, 0, 0, 0, 0.998158, 0, 0, 0, 0.998158, -0.012835, 0, -0.0111966)
+use_collision = true
+size = Vector3(20, 0.1, 20)
+
+[node name="PlayerCharacter" parent="." instance=ExtResource("1_r8xeu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.707329, 0.348312, -0.615113, 0, 0.870175, 0.492743, 0.706885, -0.348531, 0.6155, -7.24616, 10.2953, 6.81534)
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="."]
+transform = Transform3D(0.891054, -0.453897, 0, 0.453897, 0.891054, 0, 0, 0, 1, 0, 0.504308, 0)
+use_collision = true
+mesh = SubResource("PrismMesh_r8xeu")
+material = SubResource("StandardMaterial3D_r8xeu")
+
+[node name="CSGMesh3D2" type="CSGMesh3D" parent="."]
+transform = Transform3D(-0.1217, 0.0619933, 0.990629, 0.316913, 0.948235, -0.0204071, -0.940614, 0.31146, -0.135047, 0, 2.24783, 1.85886)
+use_collision = true
+mesh = SubResource("PrismMesh_r8xeu")
+material = SubResource("StandardMaterial3D_r8xeu")
+
+[node name="CSGMesh3D3" type="CSGMesh3D" parent="."]
+transform = Transform3D(0.933372, -0.317568, 0.167232, 0.325087, 0.945495, -0.0189455, -0.152101, 0.0720482, 0.985736, -2.06558, 3.56451, 1.85886)
+use_collision = true
+mesh = SubResource("PrismMesh_r8xeu")
+material = SubResource("StandardMaterial3D_r8xeu")
+
+[node name="CSGMesh3D4" type="CSGMesh3D" parent="."]
+transform = Transform3D(0.00920096, -0.023195, -0.999689, 0.51806, 0.855212, -0.0150747, 0.855295, -0.51776, 0.0198851, -2.40396, 4.50258, -0.578623)
+use_collision = true
+mesh = SubResource("PrismMesh_r8xeu")
+material = SubResource("StandardMaterial3D_r8xeu")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, -8.74228e-08, 0, 8.74228e-08, -1, 0, 0, 0, 1, -5.46242, 0.385317, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(0.206408, 0, 0, 0, 1.61278, 0, 0, 0, 3.76697, 0, 0, 0)
+mesh = SubResource("BoxMesh_r8xeu")
+surface_material_override/0 = SubResource("StandardMaterial3D_nw6x7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(0.206408, 0, 0, 0, 1.61278, 0, 0, 0, 3.76697, 0, 0, 0)
+shape = SubResource("BoxShape3D_nw6x7")
+
+[node name="FinishArea" parent="." instance=ExtResource("3_r8n5v")]
+transform = Transform3D(0.0108924, 0.982521, 0.185831, 0.655724, -0.147323, 0.740488, 0.754922, 0.113788, -0.645867, 0, 1, 5)
+
+[node name="Low Poly Weapon Pack - by Kickin It Studios_fbx_Double_Axe" parent="." instance=ExtResource("4_pemfd")]
+transform = Transform3D(-4.37114e-08, 1, 4.37114e-08, 0, -4.37114e-08, 1, 1, 4.37114e-08, 1.91069e-15, 4, 1, 0)
+
+[node name="DeathPlane" parent="." instance=ExtResource("5_8yorr")]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 9, 0, 0)

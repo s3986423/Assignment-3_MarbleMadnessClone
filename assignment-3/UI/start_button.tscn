@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvblb2q62np2x"]
+
+[ext_resource type="Script" uid="uid://b7w404nafivur" path="res://UI/start_button.gd" id="1_tutju"]
+
+[sub_resource type="Theme" id="Theme_a5587"]
+
+[node name="StartButton" type="Button"]
+offset_right = 248.0
+offset_bottom = 54.0
+theme = SubResource("Theme_a5587")
+text = "Start"
+script = ExtResource("1_tutju")

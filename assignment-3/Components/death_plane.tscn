@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://biup30ubgohl4"]
+
+[ext_resource type="Script" uid="uid://b5h1sqpsyte7p" path="res://Components/death_plane.gd" id="1_2x3fy"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_o1pww"]
+
+[node name="DeathPlane" type="Area3D"]
+script = ExtResource("1_2x3fy")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("WorldBoundaryShape3D_o1pww")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

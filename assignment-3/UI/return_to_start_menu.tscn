@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://brp7qegh5r1ec"]
+
+[ext_resource type="Script" uid="uid://cmccvjb5lin4g" path="res://UI/return_to_start_menu.gd" id="1_4xybs"]
+
+[node name="ReturnToStartMenu" type="Button"]
+text = "Return to Start Menu"
+script = ExtResource("1_4xybs")

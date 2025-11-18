@@ -1,0 +1,59 @@
+[gd_scene load_steps=7 format=4 uid="uid://k7xiubohty8i"]
+
+[ext_resource type="Script" uid="uid://c2xloo3583g8r" path="res://Components/spike_spinning_log.gd" id="1_vgdmk"]
+[ext_resource type="Texture2D" uid="uid://bi011hk3v0vfy" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/platformer_texture.png" id="2_ssp5u"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s3i00"]
+resource_name = "platformer"
+albedo_texture = ExtResource("2_ssp5u")
+roughness = 0.3
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fxj75"]
+_surfaces = [{
+"aabb": AABB(-1, -0.25, -0.25, 2, 0.5, 0.5),
+"format": 34359742465,
+"index_count": 84,
+"index_data": PackedByteArray("CgACAAsACgAAAAIAAAAHAAIACgAMAAAAAAAMAAcAAgAHAAQADAAEAAcAAgAEAAsACgANAAwADAANAAQADgANAAoADgAKAAsADQAIAAQACwAEAAgADgADAA0ADQADAAgADgALAAYACwAIAAYABQAOAAYAAwABAAgADgAPAAMAAwAPAAEADgAFAA8ACAABAAkACAAJAAYADwAJAAEABQAGAAkADwAFAAkA"),
+"lods": [0.10718, PackedByteArray("AAACAAYAAAAHAAIAAgAHAAQAAAAEAAcAAgAEAAYAAAADAAQABgAEAAgAAwAIAAQABQAAAAYABQADAAAACAAJAAYABQAGAAkAAwABAAgAAwAFAAEACAABAAkABQAJAAEA"), 0.184613, PackedByteArray("AAAEAAIABAABAAIABQAAAAIABQACAAEAAAADAAQABQADAAAAAwABAAQAAwAFAAEA"), 0.275847, PackedByteArray("AAABAAIAAwACAAEAAwAAAAIAAAADAAEA")],
+"name": "platformer",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("/P9/vwAAgL6/E9S9/P9/P///fz7CE9Q9/P9/P/z/f77SE9S9+f9/v8oT1D3//38+AACAP8YT1L34/38+AACAv/z/fz7AE9S99/9/P9QT1D0AAIC+AACAP/z/f77BE9Q9AACAP9MT1D33/38++P9/PwAAgD7TE9S9AACAv9AT1L34/3+++f9/P8cT1L0AAIC++P9/vwAAgL7VE9Q99/9/v88T1L0AAIA+AACAv8sT1D34/3++/P9/v/v/fz7WE9Q9")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_eosd6"]
+resource_name = "strut_horizontal_strut_horizontal"
+_surfaces = [{
+"aabb": AABB(-1, -0.25, -0.25, 2, 0.5, 0.5),
+"attribute_data": PackedByteArray("SNuHPkCx/j3oybI+QIUnPejJsj5Asf49SNuHPrBVoD3oybI+KB6yPUjbhz5AhSc96MmyPigesj3oybI+QIUnPejJsj5Asf49SNuHPkCFJz1I24c+sFWgPUjbhz5Asf496MmyPrBVoD3oybI+QLH+PejJsj5AhSc96MmyPrBVoD3oybI+sFWgPejJsj5AhSc96MmyPrBVoD3oybI+QLH+PUjbhz4oHrI96MmyPigesj1I24c+sFWgPUjbhz5Asf49SNuHPigesj1I24c+QIUnPejJsj4oHrI9SNuHPrBVoD1I24c+QIUnPUjbhz4oHrI9SNuHPigesj1I24c+QLH+PQ=="),
+"format": 34359742487,
+"index_count": 84,
+"index_data": PackedByteArray("FAACABUAFAAAAAIAFgAUABUAAAANAAIAFgAVAAwAAAAXAA0ABQAWAAwAFwAEAA0ABQAMAA4AFwAYAAQAGQAFAA4AGAAPAAQAGQAOAAEAGAADAA8AAwAZAAEAAwABAA8AEAARABIAEAAHABEAGgAQABIAGgAGABAACAAGABoACAATAAYAGwAcAAoAGwAJABwAGwAKAB0AGwAdAB4AHgAdAB8AHgAfAAsA"),
+"lods": [0.10718, PackedByteArray("AAACAAwAAAANAAIAAAAEAA0ABQAAAAwAAAADAAQABQAMAA4AAwAPAAQABQAOAAEAAwABAA8AAwAFAAEAEAARABIAEAAHABEAEgAGABAACAAGABIACAATAAYACQAKAAsA"), 0.184613, PackedByteArray("AAAEAAIAAAADAAQABQAAAAIAAwABAAQABQACAAEAAwAFAAEABgAHAAgACQAKAAsA"), 0.275847, PackedByteArray("AAABAAIAAwACAAEAAwAAAAIAAAADAAEA")],
+"material": SubResource("StandardMaterial3D_s3i00"),
+"name": "platformer",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("/P9/vwAAgL6/E9S9/P9/P///fz7CE9Q9/P9/P/z/f77SE9S9+f9/v8oT1D3//38+AACAP8YT1L34/38+AACAv/z/fz7AE9S9AACAP8YT1L34/38+/P9/P///fz7CE9Q9/P9/P/z/f77SE9S9AACAv/z/fz7AE9S9+f9/v8oT1D3//38+/P9/vwAAgL6/E9S99/9/P9QT1D0AAIC+AACAP/z/f77BE9Q9+P9/PwAAgD7TE9S9AACAP9MT1D33/38+AACAP9MT1D33/38++P9/PwAAgD7TE9S99/9/P9QT1D0AAIC+AACAP/z/f77BE9Q9AACAv9AT1L34/3+++f9/P8cT1L0AAIC+AACAv8sT1D34/3+++P9/vwAAgL7VE9Q99/9/v88T1L0AAIA+/P9/v/v/fz7WE9Q9+f9/P8cT1L0AAIC+AACAv8sT1D34/3++/P9/v/v/fz7WE9Q99/9/v88T1L0AAIA+AACAv9AT1L34/3+++P9/vwAAgL7VE9Q9gloAAP///z//f4Ha////v4JaAAD///8//398pf///7//f4Ja////v4Ja//////8//v//f////7/+//9/////v/7//3////+/AAD/f////z8AAP9/////PwAA/3////8/fSX//////z//f30l////v4Ja//////8//398pf///7/+//9/////v/7//3////+//v//f////7/+//9/////v30lAAD///8/fSUAAP///z99Jf//////P/9/fSX///+//3+CWv///7//f4Ha////v/7//3////+/AAD/f////z8AAP9/////PwAA/3////8/AAD/f////z8AAP9/////Pw==")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_fxj75")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_u2vyi"]
+points = PackedVector3Array(0.999804, 0.25, 0.103514, 1, 0.103514, 0.249951, 0.999804, 0.25, -0.103563, -1, 0.249951, 0.103514, -1, 0.103514, 0.25, 1, -0.103563, 0.249951, 1, -0.25, 0.103514, 0.999804, 0.103514, -0.25, -1, 0.103514, -0.25, -1, 0.249951, -0.103563, -1, -0.103563, 0.25, -1, -0.25, 0.103514, 0.999804, -0.25, -0.103563, 0.999804, -0.103563, -0.25, -1, -0.103563, -0.25, -1, -0.25, -0.103563)
+
+[node name="SpikeSpinningLog" type="StaticBody3D"]
+constant_angular_velocity = Vector3(0, 0, 0.174533)
+script = ExtResource("1_vgdmk")
+
+[node name="strut_horizontal" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
+mesh = SubResource("ArrayMesh_eosd6")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_u2vyi")

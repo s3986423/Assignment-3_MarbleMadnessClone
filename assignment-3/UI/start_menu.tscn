@@ -1,0 +1,82 @@
+[gd_scene load_steps=7 format=3 uid="uid://c4l2c6kmrsimu"]
+
+[ext_resource type="PackedScene" uid="uid://bvblb2q62np2x" path="res://UI/start_button.tscn" id="1_dl586"]
+[ext_resource type="Texture2D" uid="uid://ebqmp62rxm3a" path="res://Assets/Starry background  - Layer 01 - Solid colour.png" id="1_j3hi8"]
+[ext_resource type="Texture2D" uid="uid://lfo0fsm0l75y" path="res://Assets/Starry background  - Layer 03 - Stars.png" id="2_j3hi8"]
+[ext_resource type="PackedScene" uid="uid://bijwsm7rsbv28" path="res://UI/quit_button.tscn" id="2_q5qyg"]
+[ext_resource type="Texture2D" uid="uid://c307d1hgbqqcf" path="res://Assets/cooltext491879414856396.png" id="3_neu3s"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_neu3s"]
+
+[node name="StartMenu" type="CanvasLayer"]
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_j3hi8")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_neu3s")
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_j3hi8")
+
+[node name="Label" type="TextureRect" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -537.0
+offset_top = 200.0
+offset_right = 537.0
+offset_bottom = 314.0
+grow_horizontal = 2
+texture = ExtResource("3_neu3s")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartButton" parent="Control" instance=ExtResource("1_dl586")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -136.0
+offset_top = 14.0
+offset_right = 137.0
+offset_bottom = 81.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="QuitButton" parent="Control" instance=ExtResource("2_q5qyg")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -136.0
+offset_top = 112.0
+offset_right = 138.0
+offset_bottom = 180.0
+grow_horizontal = 2
+grow_vertical = 2

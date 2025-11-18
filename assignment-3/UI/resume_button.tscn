@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cq58ibvciv8um"]
+
+[ext_resource type="Script" uid="uid://wcqpilt8nbw3" path="res://UI/resume_button.gd" id="1_resume"]
+
+[node name="ResumeButton" type="Button"]
+process_mode = 2
+text = "Resume"
+script = ExtResource("1_resume")

@@ -1,0 +1,42 @@
+[gd_scene load_steps=11 format=3 uid="uid://bm8tp0r7o4trx"]
+
+[ext_resource type="Script" uid="uid://kkegepnts6qy" path="res://Characters/Player/player_scripts.gd" id="1_jccdb"]
+[ext_resource type="Texture2D" uid="uid://cp3ef8g6kc60l" path="res://Assets/Bricks102_1K-PNG/Bricks102_1K-PNG_Color.png" id="2_rlqwo"]
+[ext_resource type="Texture2D" uid="uid://jxo6w2chhudk" path="res://Assets/Bricks102_1K-PNG/Bricks102_1K-PNG_Roughness.png" id="3_6hx3w"]
+[ext_resource type="Texture2D" uid="uid://bpeyj1reqdjff" path="res://Assets/Bricks102_1K-PNG/Bricks102_1K-PNG_AmbientOcclusion.png" id="3_nnrug"]
+[ext_resource type="Texture2D" uid="uid://cvqw7sh730kv5" path="res://Assets/Bricks102_1K-PNG/Bricks102_1K-PNG_NormalGL.png" id="4_wbjdu"]
+[ext_resource type="AudioStream" uid="uid://b5ydkyvs2fc1f" path="res://Assets/Audio/Sound Effects/ball-rolling (final).mp3" id="6_2e07i"]
+[ext_resource type="AudioStream" uid="uid://cjrbuenpjk58m" path="res://Assets/Audio/Sound Effects/ball-collision (final).mp3" id="7_d2ux2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nnrug"]
+albedo_texture = ExtResource("2_rlqwo")
+roughness_texture = ExtResource("3_6hx3w")
+normal_enabled = true
+normal_texture = ExtResource("4_wbjdu")
+ao_enabled = true
+ao_texture = ExtResource("3_nnrug")
+
+[sub_resource type="SphereMesh" id="SphereMesh_2e07i"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_jccdb"]
+
+[node name="PlayerCharacter" type="CharacterBody3D" groups=["player"]]
+script = ExtResource("1_jccdb")
+
+[node name="PlayerSphere" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_nnrug")
+mesh = SubResource("SphereMesh_2e07i")
+
+[node name="PlayerCollisionSphere" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_jccdb")
+
+[node name="PlayerCamera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.842405, 0.538844, 0, -0.538844, 0.842405, 0, 1.15345, 1.995)
+
+[node name="PlayerRollingSFX" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_2e07i")
+bus = &"SFX"
+
+[node name="PlayerCollidingSFX" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_d2ux2")
+bus = &"SFX"

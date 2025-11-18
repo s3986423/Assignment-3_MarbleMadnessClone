@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://f1hkntrnkcmb"]
+
+[ext_resource type="Script" uid="uid://cpc5xl4qqbcg6" path="res://Characters/FinishArea.gd" id="1_dp516"]
+[ext_resource type="Texture2D" uid="uid://ccxxv8qfputr5" path="res://icon.svg" id="2_urstb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nw6x7"]
+
+[node name="FinishArea" type="Area3D"]
+transform = Transform3D(0.0108923, 0.982521, 0.185831, 0.655724, -0.147323, 0.740488, 0.754922, 0.113788, -0.645867, 0, 0, 0)
+script = ExtResource("1_dp516")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_nw6x7")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+texture = ExtResource("2_urstb")

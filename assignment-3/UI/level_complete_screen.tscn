@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=3 uid="uid://6xbdk4w12177"]
+
+[ext_resource type="Script" uid="uid://bawupgdv1si7p" path="res://UI/LevelCompleteScreen.gd" id="1_level_complete"]
+[ext_resource type="AudioStream" uid="uid://bx5lc5p0eltoo" path="res://Assets/Audio/Sound Effects/level-complete (final).mp3" id="2_gl2ek"]
+
+[node name="LevelCompleteScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1_level_complete")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 0.7)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -100.0
+offset_right = 150.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 36
+text = "Level Complete!"
+horizontal_alignment = 1
+
+[node name="StarsLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 48
+text = "★★★"
+horizontal_alignment = 1
+
+[node name="TimeLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Time: 0.00 seconds"
+horizontal_alignment = 1
+
+[node name="ContinueButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Continue"
+
+[node name="LevelCompleteSFX" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_gl2ek")

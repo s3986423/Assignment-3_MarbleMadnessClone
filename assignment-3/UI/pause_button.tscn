@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3go0ro1nlmm8"]
+
+[ext_resource type="Script" uid="uid://ch1t3xkq7om7s" path="res://UI/pause_button.gd" id="1_njnnl"]
+
+[node name="PauseButton" type="Button"]
+process_mode = 3
+focus_mode = 0
+text = "Pause"
+script = ExtResource("1_njnnl")

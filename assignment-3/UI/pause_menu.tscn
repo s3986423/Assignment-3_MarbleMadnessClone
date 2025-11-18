@@ -1,0 +1,76 @@
+[gd_scene load_steps=6 format=3 uid="uid://dl5olbchjskwe"]
+
+[ext_resource type="PackedScene" uid="uid://bijwsm7rsbv28" path="res://UI/quit_button.tscn" id="1_jfm1e"]
+[ext_resource type="Script" uid="uid://blrtwa3bwcc2e" path="res://UI/pause_menu.gd" id="1_pqlge"]
+[ext_resource type="PackedScene" uid="uid://cq58ibvciv8um" path="res://UI/resume_button.tscn" id="2_resume"]
+[ext_resource type="PackedScene" uid="uid://brp7qegh5r1ec" path="res://UI/return_to_start_menu.tscn" id="3_03fe5"]
+[ext_resource type="PackedScene" uid="uid://ddtq0k1punbmu" path="res://UI/restart_button.tscn" id="4_0b5ob"]
+
+[node name="PauseMenu" type="CanvasLayer"]
+process_mode = 2
+script = ExtResource("1_pqlge")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="QuitButton" parent="Control" instance=ExtResource("1_jfm1e")]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -21.0
+offset_top = -247.0
+offset_right = 21.0
+offset_bottom = -216.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ResumeButton" parent="Control" instance=ExtResource("2_resume")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.0
+offset_top = -96.0
+offset_right = 50.0
+offset_bottom = -65.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ReturnToStartMenu" parent="Control" instance=ExtResource("3_03fe5")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -86.0
+offset_top = 18.0
+offset_right = 86.0
+offset_bottom = 49.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RestartButton" parent="Control" instance=ExtResource("4_0b5ob")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -32.5
+offset_top = -35.0
+offset_right = 32.5
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2

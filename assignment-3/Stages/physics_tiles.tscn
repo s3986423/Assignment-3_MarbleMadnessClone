@@ -1,0 +1,736 @@
+[gd_scene load_steps=184 format=3 uid="uid://dhhdpuya31v6r"]
+
+[ext_resource type="PackedScene" uid="uid://cfcx35s0wq17f" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/ball.gltf.glb" id="2_gaqnv"]
+[ext_resource type="PackedScene" uid="uid://bsn0bkfm4op6c" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/barrierFloor.gltf.glb" id="4_8cqej"]
+[ext_resource type="PackedScene" uid="uid://by1gnob6eldur" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/barrierLadder.gltf.glb" id="5_cqshm"]
+[ext_resource type="PackedScene" uid="uid://cosl88elldh0t" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/barrierLarge.gltf.glb" id="6_3xo2x"]
+[ext_resource type="PackedScene" uid="uid://bnt41tcf44hil" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/barrierMedium.gltf.glb" id="7_yk1pk"]
+[ext_resource type="PackedScene" uid="uid://eccsj7v03ktw" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/barrierSmall.gltf.glb" id="8_pu3qm"]
+[ext_resource type="PackedScene" uid="uid://cfq3uhnajsmli" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/bow_teamBlue.gltf.glb" id="9_au2x7"]
+[ext_resource type="PackedScene" uid="uid://ydfx84pa4yd6" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/barrierStrut.gltf.glb" id="9_qxbc4"]
+[ext_resource type="PackedScene" uid="uid://b0o14130on784" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/bomb_teamBlue.gltf.glb" id="11_owhdp"]
+[ext_resource type="PackedScene" uid="uid://ylkxxuvqof6o" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/button_teamBlue.gltf.glb" id="13_5s0qw"]
+[ext_resource type="PackedScene" uid="uid://chcgxnypx8no3" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/characer_duck.gltf.glb" id="14_i365t"]
+[ext_resource type="PackedScene" uid="uid://cir634pdk4rwh" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/character_bear.gltf.glb" id="15_mlvnh"]
+[ext_resource type="PackedScene" uid="uid://cxxesyaeh7tql" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/character_dog.gltf.glb" id="16_v7bi6"]
+[ext_resource type="PackedScene" uid="uid://unj5kpknoo2t" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/detail_desert.gltf.glb" id="17_2i6hi"]
+[ext_resource type="PackedScene" uid="uid://cf7pb4h2ytons" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/arch_blue.gltf" id="18_an48w"]
+[ext_resource type="PackedScene" uid="uid://dgm0o1vmrx0hr" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/arch_tall_blue.gltf" id="19_dcp5n"]
+[ext_resource type="PackedScene" uid="uid://7y3elro0sy74" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/arch_wide_blue.gltf" id="20_ift6m"]
+[ext_resource type="PackedScene" uid="uid://c3tueodb61ogk" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_1x1x1_blue.gltf" id="22_8jdyh"]
+[ext_resource type="PackedScene" uid="uid://bg8do11pe3ly7" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_1x1x2_blue.gltf" id="23_lae6r"]
+[ext_resource type="PackedScene" uid="uid://d173mmc25iwbi" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_1x1x4_blue.gltf" id="24_u5wob"]
+[ext_resource type="PackedScene" uid="uid://y1o4u5btmjyv" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_2x1x1_blue.gltf" id="25_wclak"]
+[ext_resource type="PackedScene" uid="uid://bruryqr68cuq" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_2x1x2_blue.gltf" id="26_m4do4"]
+[ext_resource type="PackedScene" uid="uid://bt2o8cj0845x2" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_2x1x4_blue.gltf" id="27_qo0s4"]
+[ext_resource type="PackedScene" uid="uid://denhoe8cm2msa" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_3x1x1_blue.gltf" id="28_6k6vt"]
+[ext_resource type="PackedScene" uid="uid://cd7muby8xalgo" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_3x1x2_blue.gltf" id="29_02nmf"]
+[ext_resource type="PackedScene" uid="uid://bc47dibldkcr" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_3x1x4_blue.gltf" id="30_bleer"]
+[ext_resource type="PackedScene" uid="uid://v5bxpsid1qxi" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_4x1x1_blue.gltf" id="31_1eydp"]
+[ext_resource type="PackedScene" uid="uid://bh0yla6r6xqa5" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_4x1x2_blue.gltf" id="32_touav"]
+[ext_resource type="PackedScene" uid="uid://btnwr8u4g66w1" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/barrier_4x1x4_blue.gltf" id="33_8u1gm"]
+[ext_resource type="PackedScene" uid="uid://uv2tbn876aku" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/bomb_A_blue.gltf" id="34_ve075"]
+[ext_resource type="PackedScene" uid="uid://dtv4qjpk8vnrt" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/bomb_B_blue.gltf" id="35_cnrgu"]
+[ext_resource type="PackedScene" uid="uid://bthnre4n7q64n" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/bracing_large_blue.gltf" id="36_s7f72"]
+[ext_resource type="PackedScene" uid="uid://r0mx5g4oyx4d" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/bracing_medium_blue.gltf" id="37_b0tld"]
+[ext_resource type="PackedScene" uid="uid://bv6r0gxlkvrvw" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/bracing_small_blue.gltf" id="38_2d0jp"]
+[ext_resource type="PackedScene" uid="uid://bvnk4ft5yisf4" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/button_base_blue.gltf" id="39_fnc1u"]
+[ext_resource type="PackedScene" uid="uid://dj1gqykmxjbci" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/cone_blue.gltf" id="40_251fn"]
+[ext_resource type="PackedScene" uid="uid://c4hyxl0gdvs6t" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/diamond_blue.gltf" id="41_f0ihh"]
+[ext_resource type="PackedScene" uid="uid://djicotvb5dd6f" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/flag_A_blue.gltf" id="42_wghas"]
+[ext_resource type="PackedScene" uid="uid://chmnq50ft4lmc" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/flag_B_blue.gltf" id="43_op3q4"]
+[ext_resource type="PackedScene" uid="uid://beqogoctvpku7" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/flag_C_blue.gltf" id="44_ylshm"]
+[ext_resource type="PackedScene" uid="uid://b74dd1bvrotso" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/heart_blue.gltf" id="45_4gq1f"]
+[ext_resource type="PackedScene" uid="uid://byuntkuppqc3d" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/hoop_angled_blue.gltf" id="46_evar1"]
+[ext_resource type="PackedScene" uid="uid://cyf1qjhkhob83" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/hoop_blue.gltf" id="47_1j8ot"]
+[ext_resource type="PackedScene" uid="uid://v5i8rqcukeqb" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/lever_floor_base_blue.gltf" id="48_lxynt"]
+[ext_resource type="PackedScene" uid="uid://cyb7by15iuw0x" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/lever_wall_base_A_blue.gltf" id="49_tnb7h"]
+[ext_resource type="PackedScene" uid="uid://c3q30l6cev5xp" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/lever_wall_base_B_blue.gltf" id="50_cjjpl"]
+[ext_resource type="PackedScene" uid="uid://p3uhm6lu2iwy" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/pipe_90_A_blue.gltf" id="51_35ss7"]
+[ext_resource type="PackedScene" uid="uid://bke5hijb3rael" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/pipe_90_B_blue.gltf" id="52_4lkye"]
+[ext_resource type="PackedScene" uid="uid://crt0awlsxx4y2" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/pipe_180_A_blue.gltf" id="53_cserw"]
+[ext_resource type="PackedScene" uid="uid://gr3au5p2d47i" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/pipe_180_B_blue.gltf" id="54_0q3dc"]
+[ext_resource type="PackedScene" uid="uid://dkvmn2vy4xrt2" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/pipe_end_blue.gltf" id="55_lso3g"]
+[ext_resource type="PackedScene" uid="uid://dgn1yhqc4vi3u" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/pipe_straight_A_blue.gltf" id="56_dkbp8"]
+[ext_resource type="PackedScene" uid="uid://n33kluxaui1p" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/pipe_straight_B_blue.gltf" id="57_kqiyy"]
+[ext_resource type="PackedScene" uid="uid://csk3bs0rpu7o1" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_1x1x1_blue.gltf" id="58_eudo6"]
+[ext_resource type="PackedScene" uid="uid://7cnpnabrb4ck" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_2x2x1_blue.gltf" id="59_lxvxs"]
+[ext_resource type="PackedScene" uid="uid://byvo2qyxjolw4" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_2x2x2_blue.gltf" id="60_07cob"]
+[ext_resource type="PackedScene" uid="uid://bg43d3p5v17l1" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_2x2x4_blue.gltf" id="61_tif1h"]
+[ext_resource type="PackedScene" uid="uid://bfixlbuy57tps" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_4x2x1_blue.gltf" id="62_atury"]
+[ext_resource type="PackedScene" uid="uid://dd3lk660m7j7t" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_4x2x2_blue.gltf" id="63_fwpdd"]
+[ext_resource type="PackedScene" uid="uid://jpd3nasm0c03" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_4x2x4_blue.gltf" id="64_k3pnr"]
+[ext_resource type="PackedScene" uid="uid://cxn1t80pxjmee" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_4x4x1_blue.gltf" id="65_wxiqc"]
+[ext_resource type="PackedScene" uid="uid://v6kkdcfplp4o" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_4x4x2_blue.gltf" id="66_0b5aw"]
+[ext_resource type="PackedScene" uid="uid://nnpv6ndwotvo" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_4x4x4_blue.gltf" id="67_oqtuf"]
+[ext_resource type="PackedScene" uid="uid://damm5ar8bjm5r" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/ball_blue.gltf" id="68_f3qor"]
+[ext_resource type="PackedScene" uid="uid://d3xo5fl1n4dl0" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_6x2x1_blue.gltf" id="68_lnrmm"]
+[ext_resource type="PackedScene" uid="uid://cp17cnomrbq4w" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_6x2x2_blue.gltf" id="69_7qoqv"]
+[ext_resource type="PackedScene" uid="uid://do7h5md64stgl" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_6x2x4_blue.gltf" id="70_hxico"]
+[ext_resource type="PackedScene" uid="uid://4xcncajsdd1t" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_6x6x1_blue.gltf" id="71_wxu34"]
+[ext_resource type="PackedScene" uid="uid://5fu76ee3v5i3" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_6x6x2_blue.gltf" id="72_c6jcy"]
+[ext_resource type="PackedScene" uid="uid://4pndhwlaoj5e" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_6x6x4_blue.gltf" id="73_2gxgd"]
+[ext_resource type="PackedScene" uid="uid://bcm5h75s132om" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_arrow_2x2x1_blue.gltf" id="74_uqkaa"]
+[ext_resource type="PackedScene" uid="uid://b5rv5leou8hc3" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_arrow_4x4x1_blue.gltf" id="75_6btek"]
+[ext_resource type="PackedScene" uid="uid://kf70nfrgpf7q" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_decorative_1x1x1_blue.gltf" id="76_upu55"]
+[ext_resource type="PackedScene" uid="uid://dtqq406vlxjlx" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_decorative_2x2x2_blue.gltf" id="77_jpmx5"]
+[ext_resource type="PackedScene" uid="uid://c6ysjd2w72gnu" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_hole_6x6x1_blue.gltf" id="78_wq3ee"]
+[ext_resource type="PackedScene" uid="uid://b1gascs1ts7dk" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_slope_2x2x2_blue.gltf" id="79_1tlj8"]
+[ext_resource type="PackedScene" uid="uid://baeiy8187bvmp" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_slope_2x4x4_blue.gltf" id="80_nnol3"]
+[ext_resource type="PackedScene" uid="uid://wlbb5m0g0a57" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_slope_2x6x4_blue.gltf" id="81_743iy"]
+[ext_resource type="PackedScene" uid="uid://b1ryxintx8krn" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_slope_4x2x2_blue.gltf" id="82_ad2a0"]
+[ext_resource type="PackedScene" uid="uid://c10xherlj58me" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_slope_4x4x4_blue.gltf" id="83_rkltq"]
+[ext_resource type="PackedScene" uid="uid://cth8cmp6nsrgb" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_slope_4x6x4_blue.gltf" id="84_plokb"]
+[ext_resource type="PackedScene" uid="uid://cmjwtewgam8gs" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_slope_6x2x2_blue.gltf" id="85_smu4g"]
+[ext_resource type="PackedScene" uid="uid://dme4ken5lt6u1" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_slope_6x4x4_blue.gltf" id="86_t6mtb"]
+[ext_resource type="PackedScene" uid="uid://d2oqe013jtklf" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/platform_slope_6x6x4_blue.gltf" id="87_apq3n"]
+[ext_resource type="PackedScene" uid="uid://bmmi3n04qio40" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/power_blue.gltf" id="88_2ygpr"]
+[ext_resource type="PackedScene" uid="uid://d060lxrxxmgkx" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/railing_corner_double_blue.gltf" id="89_4sux5"]
+[ext_resource type="PackedScene" uid="uid://mc1vdjmwxl4y" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/railing_corner_padded_blue.gltf" id="90_lyel6"]
+[ext_resource type="PackedScene" uid="uid://crfnh16etrphm" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/railing_corner_single_blue.gltf" id="91_uda2a"]
+[ext_resource type="PackedScene" uid="uid://bbda6n3xpxldi" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/railing_straight_double_blue.gltf" id="92_twgfn"]
+[ext_resource type="PackedScene" uid="uid://e5xno2boq7ow" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/railing_straight_padded_blue.gltf" id="93_mf8b5"]
+[ext_resource type="PackedScene" uid="uid://cxrxu11jkm4r5" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/railing_straight_single_blue.gltf" id="94_46bdw"]
+[ext_resource type="PackedScene" uid="uid://d2gytffw8wgbb" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/signage_arrows_left_blue.gltf" id="95_mgwmv"]
+[ext_resource type="PackedScene" uid="uid://bm10r3ghpfvth" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/signage_arrows_right_blue.gltf" id="96_8aey3"]
+[ext_resource type="PackedScene" uid="uid://cnydf6trlwuki" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/signage_arrow_stand_blue.gltf" id="97_n64vl"]
+[ext_resource type="PackedScene" uid="uid://di3egmw6kvdkr" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/signage_arrow_wall_blue.gltf" id="98_ailg1"]
+[ext_resource type="PackedScene" uid="uid://bg0oe175enwrb" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/blue/spring_pad_blue.gltf" id="99_cpvpp"]
+[ext_resource type="PackedScene" uid="uid://dkm56cjywa5qq" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/detail_forest.gltf.glb" id="101_atym7"]
+[ext_resource type="PackedScene" uid="uid://02wpsv375oc5" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/gateLargeWide_teamBlue.gltf.glb" id="104_wdqoo"]
+[ext_resource type="PackedScene" uid="uid://du7t8f02dft2l" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/gateLarge_teamBlue.gltf.glb" id="105_nts4j"]
+[ext_resource type="PackedScene" uid="uid://b0802g05i44nm" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/gateSmallWide_teamBlue.gltf.glb" id="106_ggg17"]
+[ext_resource type="PackedScene" uid="uid://53xn3db7xpnk" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/gateSmall_teamBlue.gltf.glb" id="107_pla8j"]
+[ext_resource type="PackedScene" uid="uid://xt7spirud8et" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/hoop_teamBlue.gltf.glb" id="109_foof0"]
+[ext_resource type="PackedScene" uid="uid://c030km82g5u3p" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/plantA_desert.gltf.glb" id="111_02fk6"]
+[ext_resource type="PackedScene" uid="uid://nutgfyr41lcq" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/plantA_forest.gltf.glb" id="112_2fqi4"]
+[ext_resource type="PackedScene" uid="uid://by8rficxmn3sl" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/plantB_desert.gltf.glb" id="113_vv5mx"]
+[ext_resource type="PackedScene" uid="uid://bonm1fvyractu" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/plantB_forest.gltf.glb" id="114_gyvj3"]
+[ext_resource type="PackedScene" uid="uid://c57qh6jci1s0a" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/powerupBlock_teamBlue.gltf.glb" id="115_f7hpy"]
+[ext_resource type="PackedScene" uid="uid://db34klw8deace" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/powerupBomb.gltf.glb" id="116_42lqr"]
+[ext_resource type="PackedScene" uid="uid://u2vw0b5j0s71" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/ring_teamBlue.gltf.glb" id="117_48nl2"]
+[ext_resource type="PackedScene" uid="uid://bcmu01guarmty" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/rocksA_desert.gltf.glb" id="118_wjlep"]
+[ext_resource type="PackedScene" uid="uid://dtd3hhlo7x8nl" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/rocksA_forest.gltf.glb" id="119_djv5o"]
+[ext_resource type="PackedScene" uid="uid://kok3cd124uac" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/rocksB_desert.gltf.glb" id="120_qxaas"]
+[ext_resource type="PackedScene" uid="uid://c230b3sif4evi" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/rocksB_forest.gltf.glb" id="121_axfqd"]
+[ext_resource type="PackedScene" uid="uid://cla8vyg6a6yrb" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/slingshot_teamBlue.gltf.glb" id="122_78a2r"]
+[ext_resource type="PackedScene" uid="uid://buqowmamfe5tc" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/spikeRoller.gltf.glb" id="123_q8l8l"]
+[ext_resource type="PackedScene" uid="uid://docsgoqtyb645" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/swiperDouble_teamBlue.gltf.glb" id="125_vtlv5"]
+[ext_resource type="PackedScene" uid="uid://b1bjv4cafu6f7" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/swiperLong_teamBlue.gltf.glb" id="126_iyejm"]
+[ext_resource type="PackedScene" uid="uid://bfu3h8v74e6eq" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/swiper_teamBlue.gltf.glb" id="127_8wjrk"]
+[ext_resource type="PackedScene" uid="uid://rsvacxp50y80" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/target.gltf.glb" id="129_7krpy"]
+[ext_resource type="PackedScene" uid="uid://dnh8x2x33fsmt" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/targetStand.gltf.glb" id="130_3dwm7"]
+[ext_resource type="PackedScene" uid="uid://b8d5e6qx7p21q" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileHigh_desert.gltf.glb" id="131_vgxkl"]
+[ext_resource type="PackedScene" uid="uid://dwdqfycbfxl6q" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileHigh_forest.gltf.glb" id="132_o4c65"]
+[ext_resource type="PackedScene" uid="uid://hwsoqd8tiucm" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileHigh_teamBlue.gltf.glb" id="133_njvwc"]
+[ext_resource type="PackedScene" uid="uid://bdtpwmb327ij4" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileLarge_desert.gltf.glb" id="134_2lk2e"]
+[ext_resource type="PackedScene" uid="uid://dh024whoxg40a" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileLarge_forest.gltf.glb" id="135_f6e5r"]
+[ext_resource type="PackedScene" uid="uid://ckxg6kxateo71" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileLarge_teamBlue.gltf.glb" id="136_6hjvn"]
+[ext_resource type="PackedScene" uid="uid://blg5gr3ufuikq" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileLow_desert.gltf.glb" id="137_c05gr"]
+[ext_resource type="PackedScene" uid="uid://c6n2sklhacyds" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileLow_forest.gltf.glb" id="138_iknoo"]
+[ext_resource type="PackedScene" uid="uid://buj2l6bstc2rw" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileLow_teamBlue.gltf.glb" id="139_bbttq"]
+[ext_resource type="PackedScene" uid="uid://joadwqd0dpur" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileMedium_desert.gltf.glb" id="140_pr7rq"]
+[ext_resource type="PackedScene" uid="uid://itg2vwjal41w" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileMedium_forest.gltf.glb" id="141_l3tew"]
+[ext_resource type="PackedScene" uid="uid://cvu80lpepfbdq" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileMedium_teamBlue.gltf.glb" id="142_pfth7"]
+[ext_resource type="PackedScene" uid="uid://bforhuol3ariu" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSlopeLowHigh_desert.gltf.glb" id="143_3vw54"]
+[ext_resource type="PackedScene" uid="uid://y207c2qe7xlg" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSlopeLowHigh_forest.gltf.glb" id="144_wuwt0"]
+[ext_resource type="PackedScene" uid="uid://btwtyx7t80yhc" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSlopeLowHigh_teamBlue.gltf.glb" id="145_5wr4x"]
+[ext_resource type="PackedScene" uid="uid://bynr3ifyt5q4i" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSlopeLowMedium_desert.gltf.glb" id="146_r1t15"]
+[ext_resource type="PackedScene" uid="uid://cx61yc32ncmtj" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSlopeLowMedium_forest.gltf.glb" id="147_m0vl1"]
+[ext_resource type="PackedScene" uid="uid://b1c7j420hu7ub" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSlopeLowMedium_teamBlue.gltf.glb" id="148_k6lyc"]
+[ext_resource type="PackedScene" uid="uid://b8ddoat4vfv8g" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSlopeMediumHigh_desert.gltf.glb" id="149_vn8g1"]
+[ext_resource type="PackedScene" uid="uid://dt0a52eknbktc" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSlopeMediumHigh_forest.gltf.glb" id="150_yq1ld"]
+[ext_resource type="PackedScene" uid="uid://bwl1vghkq540r" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSlopeMediumHigh_teamBlue.gltf.glb" id="151_sud3k"]
+[ext_resource type="PackedScene" uid="uid://gynor8nlbgtq" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSmall_desert.gltf.glb" id="152_wnc1u"]
+[ext_resource type="PackedScene" uid="uid://vbkiabuf5qo5" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSmall_forest.gltf.glb" id="153_fc0ov"]
+[ext_resource type="PackedScene" uid="uid://bkg3v4k3o2b0m" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tileSmall_teamBlue.gltf.glb" id="154_jety4"]
+[ext_resource type="PackedScene" uid="uid://ui7tdfbl7g5a" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tree_desert.gltf.glb" id="155_t2rw3"]
+[ext_resource type="PackedScene" uid="uid://clqnqrt2pw2s7" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_1x1x1.gltf" id="157_05wo6"]
+[ext_resource type="PackedScene" uid="uid://bnwci0yxhkxif" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_1x1x2.gltf" id="158_xurqj"]
+[ext_resource type="PackedScene" uid="uid://uihe38qyigto" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_1x1x4.gltf" id="159_1pyf6"]
+[ext_resource type="PackedScene" uid="uid://1o4u218cv6gt" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_2x1x1.gltf" id="160_pfe22"]
+[ext_resource type="PackedScene" uid="uid://cp8cr4m5m8t8n" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_2x1x2.gltf" id="161_7or0g"]
+[ext_resource type="PackedScene" uid="uid://dw57xafmobm7g" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_2x1x4.gltf" id="162_idebq"]
+[ext_resource type="PackedScene" uid="uid://cf3jhn4sr3u0p" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_3x1x1.gltf" id="163_xtxmj"]
+[ext_resource type="PackedScene" uid="uid://dmkhwfe3xhwlf" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_3x1x2.gltf" id="164_jccd0"]
+[ext_resource type="PackedScene" uid="uid://2v3k4wqi5lre" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_3x1x4.gltf" id="165_4t4ob"]
+[ext_resource type="PackedScene" uid="uid://bowlg6748o05i" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_4x1x1.gltf" id="166_4j7v6"]
+[ext_resource type="PackedScene" uid="uid://ckpmb71ngxfww" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_4x1x2.gltf" id="167_wfx61"]
+[ext_resource type="PackedScene" uid="uid://iiv4soecgnyg" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/barrier_4x1x4.gltf" id="168_njrr4"]
+[ext_resource type="PackedScene" uid="uid://bvk1guawfwmeh" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/bomb.gltf" id="169_dcq2j"]
+[ext_resource type="PackedScene" uid="uid://bwpp85ui763pw" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/cone.gltf" id="170_hhdc1"]
+[ext_resource type="PackedScene" uid="uid://bala72pywt4uw" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/floor_wood_1x1.gltf" id="171_ieih1"]
+[ext_resource type="PackedScene" uid="uid://cxty6q5a4mc1o" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/floor_wood_2x2.gltf" id="172_btmy4"]
+[ext_resource type="PackedScene" uid="uid://cof7v035ibyhk" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/floor_wood_2x6.gltf" id="173_sww4v"]
+[ext_resource type="PackedScene" uid="uid://65hh6wbqdbl3" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/floor_wood_4x4.gltf" id="174_k1pd3"]
+[ext_resource type="PackedScene" uid="uid://bnw3sqodryhjh" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/pillar_1x1x1.gltf" id="175_vwg1m"]
+[ext_resource type="PackedScene" uid="uid://hk1xg4o34ody" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/pillar_1x1x2.gltf" id="176_7bsw7"]
+[ext_resource type="PackedScene" uid="uid://crli3dthyy6a5" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/pillar_1x1x4.gltf" id="177_6pxl0"]
+[ext_resource type="PackedScene" uid="uid://c8vqpan25d8ky" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/pillar_1x1x8.gltf" id="178_qf634"]
+[ext_resource type="PackedScene" uid="uid://uxaql2ds7ysu" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/pillar_2x2x2.gltf" id="179_hy85v"]
+[ext_resource type="PackedScene" uid="uid://l54mjk72ocoj" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/pillar_2x2x4.gltf" id="180_e35n2"]
+[ext_resource type="PackedScene" uid="uid://csd0oepoc3rdm" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/pillar_2x2x8.gltf" id="181_xjw0m"]
+[ext_resource type="PackedScene" uid="uid://c5d7sg5qh1chm" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/platform_wood_1x1x1.gltf" id="182_m54ee"]
+[ext_resource type="PackedScene" uid="uid://bmhooreg0ppna" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/sign.gltf" id="183_k5gpp"]
+[ext_resource type="PackedScene" uid="uid://njcp4ixbjo5p" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/signage_arrows_left.gltf" id="184_qd2f5"]
+[ext_resource type="PackedScene" uid="uid://cmc50u132blky" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/signage_arrows_right.gltf" id="185_vmgkd"]
+[ext_resource type="PackedScene" uid="uid://cmojrli4tnblo" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/signage_finish.gltf" id="186_127w3"]
+[ext_resource type="PackedScene" uid="uid://b65uv5en0jhxt" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/signage_finish_wide.gltf" id="187_2imt3"]
+[ext_resource type="PackedScene" uid="uid://cpih4gni2bspp" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/spring.gltf" id="188_wnu1r"]
+[ext_resource type="PackedScene" uid="uid://c8k22hspugipg" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/structure_A.gltf" id="189_dug6r"]
+[ext_resource type="PackedScene" uid="uid://cckvn73ju5405" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/structure_B.gltf" id="190_id5fb"]
+[ext_resource type="PackedScene" uid="uid://clodsh105gbp2" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/structure_C.gltf" id="191_2qqre"]
+[ext_resource type="PackedScene" uid="uid://bksxpfcb8xgt2" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/strut_horizontal.gltf" id="192_jl2n0"]
+[ext_resource type="PackedScene" uid="uid://ckedfr7fcc37c" path="res://Assets/KayKit_Platformer_Pack_1.0_FREE/neutral/strut_vertical.gltf" id="193_1mypp"]
+[ext_resource type="PackedScene" uid="uid://bph51pq5vej0j" path="res://Assets/KayKit Mini-Game Variety Pack 1.2/tree_forest.gltf.glb" id="194_av0jl"]
+
+[node name="Tiles" type="Node3D"]
+
+[node name="arch_blue_gltf" parent="." instance=ExtResource("18_an48w")]
+visible = false
+
+[node name="arch_tall_blue_gltf" parent="." instance=ExtResource("19_dcp5n")]
+visible = false
+
+[node name="arch_wide_blue_gltf" parent="." instance=ExtResource("20_ift6m")]
+visible = false
+
+[node name="ball_blue_gltf" parent="." instance=ExtResource("68_f3qor")]
+visible = false
+
+[node name="barrier_1x1x1_blue_gltf" parent="." instance=ExtResource("22_8jdyh")]
+visible = false
+
+[node name="barrier_1x1x2_blue_gltf" parent="." instance=ExtResource("23_lae6r")]
+visible = false
+
+[node name="barrier_1x1x4_blue_gltf" parent="." instance=ExtResource("24_u5wob")]
+visible = false
+
+[node name="barrier_2x1x1_blue_gltf" parent="." instance=ExtResource("25_wclak")]
+visible = false
+
+[node name="barrier_2x1x2_blue_gltf" parent="." instance=ExtResource("26_m4do4")]
+visible = false
+
+[node name="barrier_2x1x4_blue_gltf" parent="." instance=ExtResource("27_qo0s4")]
+visible = false
+
+[node name="barrier_3x1x1_blue_gltf" parent="." instance=ExtResource("28_6k6vt")]
+visible = false
+
+[node name="barrier_3x1x2_blue_gltf" parent="." instance=ExtResource("29_02nmf")]
+visible = false
+
+[node name="barrier_3x1x4_blue_gltf" parent="." instance=ExtResource("30_bleer")]
+visible = false
+
+[node name="barrier_4x1x1_blue_gltf" parent="." instance=ExtResource("31_1eydp")]
+visible = false
+
+[node name="barrier_4x1x2_blue_gltf" parent="." instance=ExtResource("32_touav")]
+visible = false
+
+[node name="barrier_4x1x4_blue_gltf" parent="." instance=ExtResource("33_8u1gm")]
+visible = false
+
+[node name="bomb_A_blue_gltf" parent="." instance=ExtResource("34_ve075")]
+visible = false
+
+[node name="bomb_B_blue_gltf" parent="." instance=ExtResource("35_cnrgu")]
+visible = false
+
+[node name="bracing_large_blue_gltf" parent="." instance=ExtResource("36_s7f72")]
+visible = false
+
+[node name="bracing_medium_blue_gltf" parent="." instance=ExtResource("37_b0tld")]
+visible = false
+
+[node name="bracing_small_blue_gltf" parent="." instance=ExtResource("38_2d0jp")]
+visible = false
+
+[node name="button_base_blue_gltf" parent="." instance=ExtResource("39_fnc1u")]
+visible = false
+
+[node name="cone_blue_gltf" parent="." instance=ExtResource("40_251fn")]
+visible = false
+
+[node name="diamond_blue_gltf" parent="." instance=ExtResource("41_f0ihh")]
+visible = false
+
+[node name="flag_A_blue_gltf" parent="." instance=ExtResource("42_wghas")]
+visible = false
+
+[node name="flag_B_blue_gltf" parent="." instance=ExtResource("43_op3q4")]
+visible = false
+
+[node name="flag_C_blue_gltf" parent="." instance=ExtResource("44_ylshm")]
+visible = false
+
+[node name="heart_blue_gltf" parent="." instance=ExtResource("45_4gq1f")]
+visible = false
+
+[node name="hoop_angled_blue_gltf" parent="." instance=ExtResource("46_evar1")]
+visible = false
+
+[node name="hoop_blue_gltf" parent="." instance=ExtResource("47_1j8ot")]
+visible = false
+
+[node name="lever_floor_base_blue_gltf" parent="." instance=ExtResource("48_lxynt")]
+visible = false
+
+[node name="lever_wall_base_A_blue_gltf" parent="." instance=ExtResource("49_tnb7h")]
+visible = false
+
+[node name="lever_wall_base_B_blue_gltf" parent="." instance=ExtResource("50_cjjpl")]
+visible = false
+
+[node name="pipe_90_A_blue_gltf" parent="." instance=ExtResource("51_35ss7")]
+visible = false
+
+[node name="pipe_90_B_blue_gltf" parent="." instance=ExtResource("52_4lkye")]
+visible = false
+
+[node name="pipe_180_A_blue_gltf" parent="." instance=ExtResource("53_cserw")]
+visible = false
+
+[node name="pipe_180_B_blue_gltf" parent="." instance=ExtResource("54_0q3dc")]
+visible = false
+
+[node name="pipe_end_blue_gltf" parent="." instance=ExtResource("55_lso3g")]
+visible = false
+
+[node name="pipe_straight_A_blue_gltf" parent="." instance=ExtResource("56_dkbp8")]
+visible = false
+
+[node name="pipe_straight_B_blue_gltf" parent="." instance=ExtResource("57_kqiyy")]
+visible = false
+
+[node name="platform_1x1x1_blue_gltf" parent="." instance=ExtResource("58_eudo6")]
+visible = false
+
+[node name="platform_2x2x1_blue_gltf" parent="." instance=ExtResource("59_lxvxs")]
+visible = false
+
+[node name="platform_2x2x2_blue_gltf" parent="." instance=ExtResource("60_07cob")]
+visible = false
+
+[node name="platform_2x2x4_blue_gltf" parent="." instance=ExtResource("61_tif1h")]
+visible = false
+
+[node name="platform_4x2x1_blue_gltf" parent="." instance=ExtResource("62_atury")]
+visible = false
+
+[node name="platform_4x2x2_blue_gltf" parent="." instance=ExtResource("63_fwpdd")]
+visible = false
+
+[node name="platform_4x2x4_blue_gltf" parent="." instance=ExtResource("64_k3pnr")]
+visible = false
+
+[node name="platform_4x4x1_blue_gltf" parent="." instance=ExtResource("65_wxiqc")]
+visible = false
+
+[node name="ball_gltf" parent="." instance=ExtResource("2_gaqnv")]
+visible = false
+
+[node name="barrierFloor_gltf" parent="." instance=ExtResource("4_8cqej")]
+visible = false
+
+[node name="barrierLadder_gltf" parent="." instance=ExtResource("5_cqshm")]
+visible = false
+
+[node name="barrierLarge_gltf" parent="." instance=ExtResource("6_3xo2x")]
+visible = false
+
+[node name="barrierMedium_gltf" parent="." instance=ExtResource("7_yk1pk")]
+visible = false
+
+[node name="barrierSmall_gltf" parent="." instance=ExtResource("8_pu3qm")]
+visible = false
+
+[node name="barrierStrut_gltf" parent="." instance=ExtResource("9_qxbc4")]
+visible = false
+
+[node name="bomb_teamBlue_gltf" parent="." instance=ExtResource("11_owhdp")]
+visible = false
+
+[node name="bow_teamBlue_gltf" parent="." instance=ExtResource("9_au2x7")]
+visible = false
+
+[node name="button_teamBlue_gltf" parent="." instance=ExtResource("13_5s0qw")]
+visible = false
+
+[node name="characer_duck_gltf" parent="." instance=ExtResource("14_i365t")]
+visible = false
+
+[node name="character_bear_gltf" parent="." instance=ExtResource("15_mlvnh")]
+visible = false
+
+[node name="character_dog_gltf" parent="." instance=ExtResource("16_v7bi6")]
+visible = false
+
+[node name="detail_desert_gltf" parent="." instance=ExtResource("17_2i6hi")]
+visible = false
+
+[node name="detail_forest_gltf" parent="." instance=ExtResource("101_atym7")]
+visible = false
+
+[node name="gateLargeWide_teamBlue_gltf" parent="." instance=ExtResource("104_wdqoo")]
+visible = false
+
+[node name="gateLarge_teamBlue_gltf" parent="." instance=ExtResource("105_nts4j")]
+visible = false
+
+[node name="gateSmallWide_teamBlue_gltf" parent="." instance=ExtResource("106_ggg17")]
+visible = false
+
+[node name="gateSmall_teamBlue_gltf" parent="." instance=ExtResource("107_pla8j")]
+visible = false
+
+[node name="hoop_teamBlue_gltf" parent="." instance=ExtResource("109_foof0")]
+visible = false
+
+[node name="plantA_desert_gltf" parent="." instance=ExtResource("111_02fk6")]
+visible = false
+
+[node name="plantA_forest_gltf" parent="." instance=ExtResource("112_2fqi4")]
+visible = false
+
+[node name="plantB_desert_gltf" parent="." instance=ExtResource("113_vv5mx")]
+visible = false
+
+[node name="plantB_forest_gltf" parent="." instance=ExtResource("114_gyvj3")]
+visible = false
+
+[node name="powerupBlock_teamBlue_gltf" parent="." instance=ExtResource("115_f7hpy")]
+visible = false
+
+[node name="powerupBomb_gltf" parent="." instance=ExtResource("116_42lqr")]
+visible = false
+
+[node name="ring_teamBlue_gltf" parent="." instance=ExtResource("117_48nl2")]
+visible = false
+
+[node name="rocksA_desert_gltf" parent="." instance=ExtResource("118_wjlep")]
+visible = false
+
+[node name="rocksA_forest_gltf" parent="." instance=ExtResource("119_djv5o")]
+visible = false
+
+[node name="rocksB_desert_gltf" parent="." instance=ExtResource("120_qxaas")]
+visible = false
+
+[node name="rocksB_forest_gltf" parent="." instance=ExtResource("121_axfqd")]
+visible = false
+
+[node name="slingshot_teamBlue_gltf" parent="." instance=ExtResource("122_78a2r")]
+visible = false
+
+[node name="spikeRoller_gltf" parent="." instance=ExtResource("123_q8l8l")]
+visible = false
+
+[node name="swiperDouble_teamBlue_gltf" parent="." instance=ExtResource("125_vtlv5")]
+visible = false
+
+[node name="swiperLong_teamBlue_gltf" parent="." instance=ExtResource("126_iyejm")]
+visible = false
+
+[node name="swiper_teamBlue_gltf" parent="." instance=ExtResource("127_8wjrk")]
+visible = false
+
+[node name="barrier_4x1x2_gltf" parent="." instance=ExtResource("167_wfx61")]
+visible = false
+
+[node name="barrier_4x1x4_gltf" parent="." instance=ExtResource("168_njrr4")]
+visible = false
+
+[node name="bomb_gltf" parent="." instance=ExtResource("169_dcq2j")]
+visible = false
+
+[node name="target_gltf" parent="." instance=ExtResource("129_7krpy")]
+visible = false
+
+[node name="targetStand_gltf" parent="." instance=ExtResource("130_3dwm7")]
+visible = false
+
+[node name="tileHigh_desert_gltf" parent="." instance=ExtResource("131_vgxkl")]
+visible = false
+
+[node name="tileHigh_forest_gltf" parent="." instance=ExtResource("132_o4c65")]
+visible = false
+
+[node name="tileHigh_teamBlue_gltf" parent="." instance=ExtResource("133_njvwc")]
+visible = false
+
+[node name="cone_gltf" parent="." instance=ExtResource("170_hhdc1")]
+visible = false
+
+[node name="floor_wood_1x1_gltf" parent="." instance=ExtResource("171_ieih1")]
+visible = false
+
+[node name="tileLarge_desert_gltf" parent="." instance=ExtResource("134_2lk2e")]
+visible = false
+
+[node name="tileLarge_forest_gltf" parent="." instance=ExtResource("135_f6e5r")]
+visible = false
+
+[node name="tileLarge_teamBlue_gltf" parent="." instance=ExtResource("136_6hjvn")]
+visible = false
+
+[node name="floor_wood_2x2_gltf" parent="." instance=ExtResource("172_btmy4")]
+visible = false
+
+[node name="floor_wood_2x6_gltf" parent="." instance=ExtResource("173_sww4v")]
+visible = false
+
+[node name="tileLow_desert_gltf" parent="." instance=ExtResource("137_c05gr")]
+visible = false
+
+[node name="tileLow_forest_gltf" parent="." instance=ExtResource("138_iknoo")]
+visible = false
+
+[node name="tileLow_teamBlue_gltf" parent="." instance=ExtResource("139_bbttq")]
+visible = false
+
+[node name="pillar_1x1x1_gltf" parent="." instance=ExtResource("175_vwg1m")]
+visible = false
+
+[node name="pillar_1x1x2_gltf" parent="." instance=ExtResource("176_7bsw7")]
+visible = false
+
+[node name="tileMedium_desert_gltf" parent="." instance=ExtResource("140_pr7rq")]
+visible = false
+
+[node name="tileMedium_forest_gltf" parent="." instance=ExtResource("141_l3tew")]
+visible = false
+
+[node name="tileMedium_teamBlue_gltf" parent="." instance=ExtResource("142_pfth7")]
+visible = false
+
+[node name="floor_wood_4x4_gltf" parent="." instance=ExtResource("174_k1pd3")]
+visible = false
+
+[node name="pillar_1x1x4_gltf" parent="." instance=ExtResource("177_6pxl0")]
+visible = false
+
+[node name="tileSlopeLowHigh_desert_gltf" parent="." instance=ExtResource("143_3vw54")]
+visible = false
+
+[node name="tileSlopeLowHigh_forest_gltf" parent="." instance=ExtResource("144_wuwt0")]
+visible = false
+
+[node name="tileSlopeLowHigh_teamBlue_gltf" parent="." instance=ExtResource("145_5wr4x")]
+visible = false
+
+[node name="pillar_1x1x8_gltf" parent="." instance=ExtResource("178_qf634")]
+visible = false
+
+[node name="pillar_2x2x2_gltf" parent="." instance=ExtResource("179_hy85v")]
+visible = false
+
+[node name="tileSlopeLowMedium_desert_gltf" parent="." instance=ExtResource("146_r1t15")]
+visible = false
+
+[node name="tileSlopeLowMedium_forest_gltf" parent="." instance=ExtResource("147_m0vl1")]
+visible = false
+
+[node name="tileSlopeLowMedium_teamBlue_gltf" parent="." instance=ExtResource("148_k6lyc")]
+visible = false
+
+[node name="pillar_2x2x4_gltf" parent="." instance=ExtResource("180_e35n2")]
+visible = false
+
+[node name="pillar_2x2x8_gltf" parent="." instance=ExtResource("181_xjw0m")]
+visible = false
+
+[node name="tileSlopeMediumHigh_desert_gltf" parent="." instance=ExtResource("149_vn8g1")]
+visible = false
+
+[node name="tileSlopeMediumHigh_forest_gltf" parent="." instance=ExtResource("150_yq1ld")]
+visible = false
+
+[node name="tileSlopeMediumHigh_teamBlue_gltf" parent="." instance=ExtResource("151_sud3k")]
+visible = false
+
+[node name="platform_wood_1x1x1_gltf" parent="." instance=ExtResource("182_m54ee")]
+visible = false
+
+[node name="sign_gltf" parent="." instance=ExtResource("183_k5gpp")]
+visible = false
+
+[node name="tileSmall_desert_gltf" parent="." instance=ExtResource("152_wnc1u")]
+visible = false
+
+[node name="tileSmall_forest_gltf" parent="." instance=ExtResource("153_fc0ov")]
+visible = false
+
+[node name="tileSmall_teamBlue_gltf" parent="." instance=ExtResource("154_jety4")]
+visible = false
+
+[node name="tree_desert_gltf" parent="." instance=ExtResource("155_t2rw3")]
+visible = false
+
+[node name="tree_forest_gltf" parent="." instance=ExtResource("194_av0jl")]
+visible = false
+
+[node name="signage_arrows_left_gltf" parent="." instance=ExtResource("184_qd2f5")]
+visible = false
+
+[node name="signage_arrows_right_gltf" parent="." instance=ExtResource("185_vmgkd")]
+visible = false
+
+[node name="signage_finish_gltf" parent="." instance=ExtResource("186_127w3")]
+visible = false
+
+[node name="signage_finish_wide_gltf" parent="." instance=ExtResource("187_2imt3")]
+visible = false
+
+[node name="spring_gltf" parent="." instance=ExtResource("188_wnu1r")]
+visible = false
+
+[node name="structure_A_gltf" parent="." instance=ExtResource("189_dug6r")]
+visible = false
+
+[node name="structure_B_gltf" parent="." instance=ExtResource("190_id5fb")]
+visible = false
+
+[node name="structure_C_gltf" parent="." instance=ExtResource("191_2qqre")]
+visible = false
+
+[node name="strut_horizontal_gltf" parent="." instance=ExtResource("192_jl2n0")]
+visible = false
+
+[node name="strut_vertical_gltf" parent="." instance=ExtResource("193_1mypp")]
+visible = false
+
+[node name="platform_4x4x2_blue_gltf" parent="." instance=ExtResource("66_0b5aw")]
+visible = false
+
+[node name="platform_4x4x4_blue_gltf" parent="." instance=ExtResource("67_oqtuf")]
+visible = false
+
+[node name="platform_6x2x1_blue_gltf" parent="." instance=ExtResource("68_lnrmm")]
+visible = false
+
+[node name="platform_6x2x2_blue_gltf" parent="." instance=ExtResource("69_7qoqv")]
+visible = false
+
+[node name="platform_6x2x4_blue_gltf" parent="." instance=ExtResource("70_hxico")]
+visible = false
+
+[node name="platform_6x6x1_blue_gltf" parent="." instance=ExtResource("71_wxu34")]
+visible = false
+
+[node name="platform_6x6x2_blue_gltf" parent="." instance=ExtResource("72_c6jcy")]
+visible = false
+
+[node name="platform_6x6x4_blue_gltf" parent="." instance=ExtResource("73_2gxgd")]
+visible = false
+
+[node name="platform_arrow_2x2x1_blue_gltf" parent="." instance=ExtResource("74_uqkaa")]
+visible = false
+
+[node name="platform_arrow_4x4x1_blue_gltf" parent="." instance=ExtResource("75_6btek")]
+visible = false
+
+[node name="platform_decorative_1x1x1_blue_gltf" parent="." instance=ExtResource("76_upu55")]
+visible = false
+
+[node name="platform_decorative_2x2x2_blue_gltf" parent="." instance=ExtResource("77_jpmx5")]
+visible = false
+
+[node name="platform_hole_6x6x1_blue_gltf" parent="." instance=ExtResource("78_wq3ee")]
+visible = false
+
+[node name="platform_slope_2x2x2_blue_gltf" parent="." instance=ExtResource("79_1tlj8")]
+visible = false
+
+[node name="platform_slope_2x4x4_blue_gltf" parent="." instance=ExtResource("80_nnol3")]
+visible = false
+
+[node name="platform_slope_2x6x4_blue_gltf" parent="." instance=ExtResource("81_743iy")]
+visible = false
+
+[node name="platform_slope_4x2x2_blue_gltf" parent="." instance=ExtResource("82_ad2a0")]
+visible = false
+
+[node name="platform_slope_4x4x4_blue_gltf" parent="." instance=ExtResource("83_rkltq")]
+visible = false
+
+[node name="platform_slope_4x6x4_blue_gltf" parent="." instance=ExtResource("84_plokb")]
+visible = false
+
+[node name="platform_slope_6x2x2_blue_gltf" parent="." instance=ExtResource("85_smu4g")]
+visible = false
+
+[node name="platform_slope_6x4x4_blue_gltf" parent="." instance=ExtResource("86_t6mtb")]
+visible = false
+
+[node name="platform_slope_6x6x4_blue_gltf" parent="." instance=ExtResource("87_apq3n")]
+visible = false
+
+[node name="power_blue_gltf" parent="." instance=ExtResource("88_2ygpr")]
+visible = false
+
+[node name="railing_corner_double_blue_gltf" parent="." instance=ExtResource("89_4sux5")]
+visible = false
+
+[node name="railing_corner_padded_blue_gltf" parent="." instance=ExtResource("90_lyel6")]
+visible = false
+
+[node name="railing_corner_single_blue_gltf" parent="." instance=ExtResource("91_uda2a")]
+visible = false
+
+[node name="railing_straight_double_blue_gltf" parent="." instance=ExtResource("92_twgfn")]
+visible = false
+
+[node name="railing_straight_padded_blue_gltf" parent="." instance=ExtResource("93_mf8b5")]
+visible = false
+
+[node name="railing_straight_single_blue_gltf" parent="." instance=ExtResource("94_46bdw")]
+visible = false
+
+[node name="signage_arrows_left_blue_gltf" parent="." instance=ExtResource("95_mgwmv")]
+visible = false
+
+[node name="signage_arrows_right_blue_gltf" parent="." instance=ExtResource("96_8aey3")]
+visible = false
+
+[node name="signage_arrow_stand_blue_gltf" parent="." instance=ExtResource("97_n64vl")]
+visible = false
+
+[node name="signage_arrow_wall_blue_gltf" parent="." instance=ExtResource("98_ailg1")]
+visible = false
+
+[node name="spring_pad_blue_gltf" parent="." instance=ExtResource("99_cpvpp")]
+visible = false
+
+[node name="barrier_1x1x1_gltf" parent="." instance=ExtResource("157_05wo6")]
+visible = false
+
+[node name="barrier_1x1x2_gltf" parent="." instance=ExtResource("158_xurqj")]
+visible = false
+
+[node name="barrier_1x1x4_gltf" parent="." instance=ExtResource("159_1pyf6")]
+visible = false
+
+[node name="barrier_2x1x1_gltf" parent="." instance=ExtResource("160_pfe22")]
+visible = false
+
+[node name="barrier_2x1x2_gltf" parent="." instance=ExtResource("161_7or0g")]
+visible = false
+
+[node name="barrier_2x1x4_gltf" parent="." instance=ExtResource("162_idebq")]
+visible = false
+
+[node name="barrier_3x1x1_gltf" parent="." instance=ExtResource("163_xtxmj")]
+visible = false
+
+[node name="barrier_3x1x2_gltf" parent="." instance=ExtResource("164_jccd0")]
+visible = false
+
+[node name="barrier_3x1x4_gltf" parent="." instance=ExtResource("165_4t4ob")]
+visible = false
+
+[node name="barrier_4x1x1_gltf" parent="." instance=ExtResource("166_4j7v6")]
+visible = false

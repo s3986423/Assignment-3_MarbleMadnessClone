@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://do06x4rp6oaaf"]
+
+[ext_resource type="Script" uid="uid://s2wm7tcwd6xo" path="res://UI/HUD.gd" id="2_hud_script"]
+
+[node name="Hud" type="CanvasLayer"]
+script = ExtResource("2_hud_script")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TimerLabel" type="Label" parent="Control"]
+layout_mode = 0
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -100.0
+offset_top = 20.0
+offset_right = 100.0
+offset_bottom = 70.0
+theme_override_font_sizes/font_size = 32
+text = "00:00"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelLabel" type="Label" parent="Control"]
+layout_mode = 1
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 208.0
+offset_bottom = 54.0
+theme_override_font_sizes/font_size = 24
+text = "Level: Test Level"
+horizontal_alignment = 1
+vertical_alignment = 1
